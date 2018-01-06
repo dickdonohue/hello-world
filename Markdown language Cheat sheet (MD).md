@@ -26,10 +26,10 @@ _Example:_
 * Just as in html, hard break \(line feeds) in your source will be ignored.
   _Example: \( the ・ indicates a space)_
 ```
-    _This text has a hard break・ 
-    in the source; but it is ignored._
+    This text has a hard break・ 
+    in the source; but it is ignored.
 ```
-This renders as:
+  _This renders as:_
 
 This text has a hard break 
 in the source; but it is ignored. 
@@ -40,7 +40,7 @@ in the source; but it is ignored.
 This is an example of a soft break.・・  
 Notice the 2 extra spaces at the end of the line.  
 ```
-This renders as: 
+  _This renders as:_
 This is an example of a soft break.  
 Notice the 2 extra spaces at the end of the line.  
 
@@ -51,7 +51,7 @@ This is an example of a hard break.
 
 The empty line above is what caused that. 
 ```
-This renders as:
+  _This renders as:_
 
 This is an example of a hard break.
 
