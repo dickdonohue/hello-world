@@ -90,7 +90,8 @@ that is actually in  parenthesis, \(like this), you need to prefix it with a `\`
 _Example:_  `I never forget a face \(but in your case, I'll make an exception`
 
 ### Lessons I learned:
-1. Be sure that your editor does not trim trailing spaces.  Otherwise, you lose all your soft breaks. 
+1. Be sure your editor does not trim trailing spaces when you save your files.  Otherwise, you lose 
+all your soft breaks. 
 2. For lists, the bullet character \(either `*` or `-`) needs to have a space after it!
    - also, when indenting lists, put the bullet in the same column as the first character of text 
  level above it.  
@@ -99,7 +100,8 @@ _Example:_  `I never forget a face \(but in your case, I'll make an exception`
  that is not part of the original design includes 
  [codes for making tables](https://help.github.com/articles/organizing-information-with-tables/).
 4. Escaping challenges
-   - To show a _single_ backtick \(``` ` ```) as code in a Markdown document, you need to surround it with 
-   _triple_ backticks \(` ``` `)
-   - To show _triple_ backticks \(` ``` `), you will need to surround it with a _single_ backtick \(``` ` ```)
+   - To show a _single_ backtick \(``` ` ```) as code in a Markdown document, you need to surround 
+   it with _triple_ backticks \(` ``` `)
+   - To show _triple_ backticks \(` ``` `) as code in a Markdown document, you will need to 
+   surround it with a _single_ backtick \(``` ` ```)
    - or if you don't need to show it as "code", you can just prefix it with a backslash  \(`\`)
