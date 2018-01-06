@@ -55,9 +55,19 @@ Which renders to this:
 ### Block quote  
 Prefix with a `>` \(greater than).  
 * Can be a sentence or a paragraph
-* If you have multiple paragraphs (line feeds) just prefix all with `>`
-_Example_    
-`>"The Lord is my shepard"`
+* If you want hard breaks or multiple paragraphs (line feeds), you just prefix all lines with `>`
+
+_Example:_   
+```
+> God, Give me the Serenity to accept the things I cannot change,
+> The Courage to change the things I can,
+> And the Wisdom to know the difference
+```
+which renders as:
+> God, Give me the Serenity to accept the things I cannot change,
+> The Courage to change the things I can,
+> And the Wisdom to know the difference.
+
 
 ### Lists  
 * **Unordered** - prefix list items with a single `*`  or `-` \(asterisk or minus)  
