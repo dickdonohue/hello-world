@@ -5,54 +5,53 @@ _Many thanks to [markdowntutorial.com](http://www.markdowntutorial.com) and [dar
 ###### Last updated: Jan 24, 2017
 
 ### Bold
-Surround text with `**` \(two asterisks)
+Surround text with `**` \(two asterisks)  
 _Example:_ `this is **bold** text`
 
 ### Italics
-Surround text with `*` \(single underscore)
+Surround text with `*` \(single underscore)  
 _Example:_ `this is _really_ interesting`
 
 ### Headers 
 There are 6 \(similar to `<h1>` to `<h6>`)
 - For Header1 you prefix it with one `#`.
 - For Header2, you prefix it with two `##`s.
-- _be sure to leave a space after the last \#!_
+- _be sure to leave a space after the last \#!_  
 _Example:_
 ```
 # Heading 1
 #### Heading 4
 ```
 ### Paragraphs  
-Just as in html, hard break \(line feeds) in your source will be ignored. 
-* To simulate a `<p>` \(a soft break), insert a blank line after the text.
-* To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces.
-
-
-_Examples: \( the ・ indicates a space)_
+* Just as in html, hard break \(line feeds) in your source will be ignored.
+  _Example: \( the ・ indicates a space)_
 ```
-This text has a hard break・ 
+    _This text has a hard break・ 
+    in the source; but it is ignored._
+```
+This renders as:
+
+This text has a hard break 
 in the source; but it is ignored. 
-```
-
+  
+* To simulate a `<p>` \(a soft break), insert a blank line after the text.
+  _Example: \( the ・ indicates a space)_
 ```
 This is an example of a soft break.・・  
-Notice the extra spaces at the end of the line.  
+Notice the 2 extra spaces at the end of the line.  
 ```
+This renders as: 
+This is an example of a soft break.  
+Notice the 2 extra spaces at the end of the line.  
 
+* To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces.  
+_Examples: \( the ・ indicates a space)_
 ```
 This is an example of a hard break.
 
 The empty line above is what caused that. 
 ```
-These render as:
-
-This text has a hard break 
-in the source; but it is ignored. 
-
-
-This is an example of a soft break.  
-Notice the extra spaces at the end of the line.  
-
+This renders as:
 
 This is an example of a hard break.
 
@@ -134,8 +133,7 @@ Which renders as:
 There are times when you don't want the Markdown effect.  For example, if you want to show text
 that is actually in  parenthesis, \(like this), you need to prefix it with a `\` \(a backslash).
 
-
-_Example:_  `I never forget a face \(but in your case, I'll make an exception`
+_Example:_  `I never forget a face \(but in your case, I'll make an exception!`
 
 ### Lessons I learned:
 1. Be sure your editor does not trim trailing spaces when you save your files.  Otherwise, you lose 
