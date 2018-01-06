@@ -26,9 +26,9 @@ There are two types:
 
 * **Reference links**
 You put the actual link at the bottom of the document.
- * Surround the **text** in `[]` \(square brackets)
- * followed immediately by the reference \(like a tag\) also surrounded in brackets
-  * The reference link listed elsewhere is `[]` followed by a colon
+* Surround the **text** in `[]` \(square brackets)
+* followed immediately by the reference \(like a tag\) also surrounded in brackets
+ * The reference link listed elsewhere is `[]` followed by a colon
  _Example:_
 
 `  Do you want to [see something fun][a fun place]?`
