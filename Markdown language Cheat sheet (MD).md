@@ -68,7 +68,8 @@ _Example:_
 ```
 1. Item 1
    * Item 1.1
-2. Item 2 
+     * Item 1.1.1
+2. Item 2
 ```
 Which renders as:  
 1. Item 1
