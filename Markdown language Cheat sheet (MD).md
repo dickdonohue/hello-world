@@ -36,7 +36,7 @@ _This renders as:_
 This text has a hard break 
 in the source; but it is ignored. 
   
-* To simulate a `<p>` \(a soft break), insert a blank line after the text.
+* To simulate a `<br>` \(a soft break), insert a blank line after the text.
 
 _Example: \( the ・ indicates a space)_
 
@@ -50,7 +50,7 @@ _This renders as:_
 This is an example of a soft break.  
 Notice the 2 extra spaces at the end of the line.  
 
-* To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces.
+* To simulate a `<p>`\(a hard break), suffix the line with two trailing spaces.
 
 _Example: \( the ・ indicates a space)_
 ```
