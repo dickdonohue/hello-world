@@ -1,6 +1,6 @@
 # Markdown Cheat Sheet
 
-_Many thanks to [markdowntutorial.com](www.markdowntutorial.com) and [daringfireball.net](daringfireball.net/projects/markdown/)_
+_Many thanks to [markdowntutorial.com](http://www.markdowntutorial.com) and [daringfireball.net](http://daringfireball.net/projects/markdown/)_
 
 ### Bold
 Surround text with `**` \(two asterisks)
@@ -21,7 +21,7 @@ There are two types:
 1. **Inline Links**  
   - Surround the **text** in `[]`
   - Surround the **link** in `()`  
- _Example:_  'Go to [my home page](dickdonohue.com) for more info.`
+ _Example:_  'Go to [my home page](http://dickdonohue.com) for more info.`
 
 2. **Reference links**    
 You put the actual link at the bottom of the document.
