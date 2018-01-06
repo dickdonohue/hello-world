@@ -1,21 +1,21 @@
-#Markdown Cheat Sheet
+# Markdown Cheat Sheet
 
 _Many thanks to [markdowntutorial.com](www.markdowntutorial.com) and [daringfireball.net](daringfireball.net/projects/markdown/)_
 
-###Bold
+### Bold
 surround with \*\* \(two asterisks)
 _Example:_ `this is **bold** text`
 
-###Italics
+### Italics
 surround text with \* \(single underscore)
 _Example:_ `this is _really_ interesting`
 
-###Headers
+### Headers
 There are 6 \(like `<h1>` to `<h6>`)
 - For Header1 you prefix it with one \#.
 - For Header2, you prefix it with two \#\#s.
 
-###Hyperlinks
+### Hyperlinks
 
 There are two types:
 
@@ -38,26 +38,26 @@ You put the actual link at the bottom of the document.
 `[a fun place]: www.github.com`
 
 
-###Images
+### Images
 Same as a hyperlink, except that it is prefixed with a \! \(exclamation point)
 The text becomes the alt-text for the image.
 
-###Block quote
+### Block quote
 Prefix with a \> \(greater than).
 
 * Can be a sentence or a paragraph
 * If you have multiple paragraphs (line feeds) just prefix all with >
 * _Example_    `>”The Lord is my sheperd”`
 
-###Lists
+### Lists
 * **Unordered** - prefix list items with a single \* \(asterisk with a space after it)
 * **Ordered list** - prefix list item with number followed by a period
 To create multiple levels, just prefix with an additional space \(to indent)
 
-###Paragraphs
+### Paragraphs
 * To simulate a `<p>` insert a blank line after the text
 * To simulate a `<br>` suffix the line with two trailing spaces
 
-###Code
+### Code
 * To show code inline surround it with a \` \(back tick)
 * To show a block of code surround it with \`\`\` \(three backpacks)
