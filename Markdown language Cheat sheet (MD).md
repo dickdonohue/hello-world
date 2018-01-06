@@ -25,16 +25,25 @@ _Example:_
 ### Paragraphs  
 * To simulate a `<p>` \(a soft break), insert a blank line after the text.
 * To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces.
-_Examples: \( the ・ indicates a space)_ 
+
+_Examples: \( the ・ indicates a space)_
+
 ```
-This is an example of a **・・**  
+This is an example of a・・  
 soft break
 ```
+
 ```This is an example of a 
 
 hard break
 ```
+These render as:
+This is an example of a  
+soft break
 
+This is an example of a 
+
+hard break
 
 ### Hyperlinks  
 There are two types:  
