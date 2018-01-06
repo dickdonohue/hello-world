@@ -38,7 +38,11 @@ Do you want to [see something fun][a fun place]?
 
 ### Images  
 Same as a hyperlink, except that it is prefixed with a \! \(exclamation point)
-The text becomes the alt-text for the image.
+The text becomes the alt-text for the image.  
+_Example:_ `![my profile pic](https://avatars1.githubusercontent.com/u/15901042?s=400&v=4)`
+
+Which renders to this: 
+![my profile pic](https://avatars1.githubusercontent.com/u/15901042?s=400&v=4)
 
 ### Block quote  
 Prefix with a \> \(greater than).
