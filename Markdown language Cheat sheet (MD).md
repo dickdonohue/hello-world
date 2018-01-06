@@ -24,28 +24,35 @@ _Example:_
 ```
 ### Paragraphs  
 * Just as in html, hard break \(line feeds) in your source will be ignored.
-  _Example: \( the ・ indicates a space)_
+
+_Example: \( the ・ indicates a space)_
 ```
     This text has a hard break・ 
     in the source; but it is ignored.
 ```
-  _This renders as:_
+
+_This renders as:_
 
 This text has a hard break 
 in the source; but it is ignored. 
   
 * To simulate a `<p>` \(a soft break), insert a blank line after the text.
-  _Example: \( the ・ indicates a space)_
+
+_Example: \( the ・ indicates a space)_
+
 ```
 This is an example of a soft break.・・  
 Notice the 2 extra spaces at the end of the line.  
 ```
-  _This renders as:_
+
+_This renders as:_
+  
 This is an example of a soft break.  
 Notice the 2 extra spaces at the end of the line.  
 
-* To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces.  
-_Examples: \( the ・ indicates a space)_
+* To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces.
+
+_Example: \( the ・ indicates a space)_
 ```
 This is an example of a hard break.
 
