@@ -23,28 +23,41 @@ _Example:_
 #### Heading 4
 ```
 ### Paragraphs  
+Just as in html, hard break \(line feeds) in your source will be ignored. 
 * To simulate a `<p>` \(a soft break), insert a blank line after the text.
 * To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces.
 
+
 _Examples: \( the ・ indicates a space)_
+```
+This text has a hard break・ 
+in the source; but it is ignored. 
+```
 
 ```
-This is an example of a・・  
-soft break
+This is an example of a soft break.・・  
+Notice the extra spaces at the end of the line.  
 ```
 
 ```
-This is an example of a 
+This is an example of a hard break.
 
-hard break
+The empty line above is what caused that. 
 ```
 These render as:
-This is an example of a  
-soft break
 
-This is an example of a 
+This text has a hard break 
+in the source; but it is ignored. 
 
-hard break
+
+This is an example of a soft break.  
+Notice the extra spaces at the end of the line.  
+
+
+This is an example of a hard break.
+
+The empty line above is what caused that. 
+
 
 ### Hyperlinks  
 There are two types:  
