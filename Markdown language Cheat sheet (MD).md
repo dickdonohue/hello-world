@@ -18,16 +18,18 @@ There are 6 \(like `<h1>` to `<h6>`)
 ### Hyperlinks  
 There are two types:
 
-* **Inline Links**  
- * Surround the **text** in `[]`
+1. **Inline Links**  
+ * Surround the **text** in `[]`  
+ 
+ * Surround the **link** in `()`  
+ _Example:_  'Go to [my home page](dickdonohue.com) for more info.`
 
- * Surround the **link** in `()`
-   _Example:_  'Go to [my home page](dickdonohue.com) for more info.`
-
-* **Reference links**  
+2. **Reference links**  
 You put the actual link at the bottom of the document.
  * Surround the **text** in `[]` \(square brackets)
+ 
  * followed immediately by the reference \(like a tag\) also surrounded in brackets
+ 
  * The reference link listed elsewhere is `[]` followed by a colon
  _Example:_  
 
