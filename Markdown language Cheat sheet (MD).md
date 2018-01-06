@@ -70,11 +70,11 @@ _Example:_
    * Item 1.1
 2. Item 2 
 ```
-Which renders to:  
+Which renders as:  
 1. Item 1
    * Item 1.1
-2. Item 2 
- 
+     * Item 1.1.1
+2. Item 2  
 
 ### Paragraphs  
 * To simulate a `<p>` \(a soft break), insert a blank line after the text
@@ -86,7 +86,7 @@ Which renders to:
 
 ### Escaping 
 There are times when you don't want the Markdown effect.  For example, if you want to show text
-that is actually in  parenthesis, \(like this), you need to prefix it with a `\` \(a backslash). 
+that is actually in  parenthesis, \(like this), you need to prefix it with a `\` \(a backslash).
 _Example:_  `I never forget a face \(but in your case, I'll make an exception`
 
 ### Lessons I learned:
