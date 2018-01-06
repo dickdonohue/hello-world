@@ -22,6 +22,19 @@ _Example:_
 # Heading 1
 #### Heading 4
 ```
+### Paragraphs  
+* To simulate a `<p>` \(a soft break), insert a blank line after the text.
+* To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces.
+_Examples: \( the ・ indicates a space)_ 
+```
+This is an example of a **・・**  
+soft break
+```
+```This is an example of a 
+
+hard break
+```
+
 
 ### Hyperlinks  
 There are two types:  
@@ -58,21 +71,17 @@ Prefix with a `>` \(greater than).
 * If you want hard breaks or multiple paragraphs (line feeds), you need to add the extra lines 
 with just the `>`
 
-_Example:_   
+_Example: \( the ・ indicates a space)_   
 ```
-> God, Give me the Serenity to accept the things I cannot change,
->
-> The Courage to change the things I can,
->
-> And the Wisdom to know the difference.
+> God, Give me the Serenity to accept the things I cannot change,・・   
+> The Courage to change the things I can,・・  
+> And the Wisdom to know the difference. 
 ```
 which renders as:
 
-> God, Give me the Serenity to accept the things I cannot change,
->
-> The Courage to change the things I can,
->
-> And the Wisdom to know the difference.
+> God, Give me the Serenity to accept the things I cannot change,   
+> The Courage to change the things I can,  
+> And the Wisdom to know the difference. 
 
 ### Lists  
 * **Unordered** - prefix list items with a single `*`  or `-` \(asterisk or minus)  
@@ -92,9 +101,6 @@ Which renders as:
      * Item 1.1.1
 2. Item 2  
 
-### Paragraphs  
-* To simulate a `<p>` \(a soft break), insert a blank line after the text
-* To simulate a `<br>`\(a hard break), suffix the line with two trailing spaces
 
 ### Code  
 * To show code inline surround it with a  ```  `  ``` (back tick)
@@ -103,6 +109,7 @@ Which renders as:
 ### Escaping 
 There are times when you don't want the Markdown effect.  For example, if you want to show text
 that is actually in  parenthesis, \(like this), you need to prefix it with a `\` \(a backslash).
+
 _Example:_  `I never forget a face \(but in your case, I'll make an exception`
 
 ### Lessons I learned:
