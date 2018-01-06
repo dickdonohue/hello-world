@@ -28,17 +28,17 @@ _Example:_
 _Example: \( the ・ indicates a space)_
 ```
     This text has a hard break・ 
-    in the source; but it is ignored.
+    in the source; but it is ignored when rendered.
 ```
 
 _This renders as:_
 
 This text has a hard break 
-in the source; but it is ignored. 
+in the source; but it is ignored when rendered.
  
 * To simulate a `<p>`\(a hard break), insert a blank line after the text.
 
-_Example: \( the ・ indicates a space)_
+_Example:  
 ```
 This is an example of a hard break.
 
@@ -71,14 +71,16 @@ There are two types:
 1. **Inline Links**  
    - Surround the **text** in `[ ]`
    - Surround the **link** in `( )`  
-   _Example:_  'Go to [my home page](http://dickdonohue.com) for more info.`
+   _Example:_  `Go to [my home page](http://dickdonohue.com) for more info.`  
+   This renders as:
+   Go to [my home page](http://dickdonohue.com) for more info.
 
 2. **Reference links**    
 You put the actual link somewhere else \(like the bottom of the document.)
    * Surround the **text** in `[ ]` \(square brackets)
    * followed immediately by the reference \(like a tag\) also surrounded in brackets
    * The reference link \(listed elsewhere) is `[ ]` followed by a colon  
- _Example:_  
+_Example:_  
 ```
 Do you want to [see something fun][a fun place]?  
   :
