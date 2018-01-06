@@ -75,4 +75,4 @@ Which renders to:
 
 ### Code  
 * To show code inline surround it with a  ``` ` ``` (back tick)
-* To show a block of code surround it with ``` ``` ``` (three backpacks)
+* To show a block of code surround it with ``` \``` ``` (three backpacks)
