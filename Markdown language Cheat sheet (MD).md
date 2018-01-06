@@ -33,7 +33,8 @@ This is an example of a・・
 soft break
 ```
 
-```This is an example of a 
+```
+This is an example of a 
 
 hard break
 ```
@@ -113,11 +114,13 @@ Which renders as:
 
 ### Code  
 * To show code inline surround it with a  ```  `  ``` (back tick)
-* To show a block of code surround it with `  ```  ` (three backpacks)
-
+* To show a block of code surround it with `  ```  ` (three backticks).
+  * It's best to leave the _triple_ backticks on a line of their own.
+  
 ### Escaping 
 There are times when you don't want the Markdown effect.  For example, if you want to show text
 that is actually in  parenthesis, \(like this), you need to prefix it with a `\` \(a backslash).
+
 
 _Example:_  `I never forget a face \(but in your case, I'll make an exception`
 
